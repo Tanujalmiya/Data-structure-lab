@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
+void main() {
     int row1, col1, row2, col2;
     printf("Enter rows and columns for first matrix: ");
     scanf("%d %d", &row1, &col1);
@@ -28,7 +28,7 @@ int main() {
         }
     }
 
-    // Multiplying matrices
+   
     for (int i = 0; i < row1; i++) {
         for (int j = 0; j < col2; j++) {
             product[i][j] = 0;
@@ -46,5 +46,5 @@ int main() {
         printf("\n");
     }
 
-    return 0;
+
 }
