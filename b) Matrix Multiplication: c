@@ -9,7 +9,7 @@ void main() {
 
     if (col1 != row2) {
         printf("Matrix multiplication not possible.\n");
-        return 0;
+        
     }
 
     int matrix1[row1][col1], matrix2[row2][col2], product[row1][col2];
